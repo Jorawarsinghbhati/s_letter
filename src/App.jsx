@@ -207,6 +207,39 @@ function App() {
         </div>
       </section>
 
+      <section className="relative mx-auto max-w-5xl px-6 pb-20 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#b07164]">
+            thodi si shayari, sirf tumhare liye
+          </span>
+          <h2 className="mt-3 font-display text-3xl tracking-tight sm:text-4xl">
+            Dil se, Pooja
+          </h2>
+        </div>
+        <div className="mt-8 grid gap-4 sm:grid-cols-2">
+          <article className="rounded-[1.5rem] border border-[#eee2d8] bg-[#fffdf9] p-6 text-center shadow-sm shadow-[#684b3b]/[0.03] sm:p-8">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#bc8274]">
+              Hinglish
+            </span>
+            <p className="mt-4 font-display text-xl italic leading-8 text-[#76564b]">
+              Galti meri thi, dil se maanta hoon,
+              <br />
+              tumhari khushi ke liye, khud ko behtar banata hoon.
+            </p>
+          </article>
+          <article className="rounded-[1.5rem] border border-[#eee2d8] bg-[#fffdf9] p-6 text-center shadow-sm shadow-[#684b3b]/[0.03] sm:p-8">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#bc8274]">
+              Punjabi (Roman)
+            </span>
+            <p className="mt-4 font-display text-xl italic leading-8 text-[#76564b]">
+              Tere naal hassiye, khushiyan vand laiye,
+              <br />
+              dil ton sorry, Pooja—agge ton hor sambhaliye.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section
         id="a-little-more"
         className="relative z-10 border-y border-[#eee4da] bg-[#f7f2eb]/70"
